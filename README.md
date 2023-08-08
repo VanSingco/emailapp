@@ -15,6 +15,12 @@ This is are the following steps to run this application to your local machine
 
     cd emailapp
 
+    git fetch origin main
+
+    git checkout main
+
+    git  pull origin main
+
     <!-- Install all packages needed -->
     composer update
 
