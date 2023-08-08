@@ -1,7 +1,7 @@
 
 ## Email App Installation
 
-This is are the following steps to run this application to your local machine
+This is are the following steps to run this application on your local machine
 
 1. Clone the project repository by running this command.
    
