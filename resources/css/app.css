@@ -1,0 +1,73 @@
+@import "quill/dist/quill.snow.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.tags-input {
+    /* display: flex;
+    flex-wrap: wrap; */
+    background-color: #fff;
+    padding: .5rem;
+  }
+  
+  .tags-input-tag {
+    display: inline-flex;
+    line-height: 1;
+    align-items: center;
+    font-size: .875rem;
+    background-color: #d6d6d6;
+    color: #000;
+    user-select: none;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+   
+  }
+  
+  .tags-input-tag:last-of-type {
+    margin-right: 0;
+  }
+  
+  .tags-input-remove {
+    color: #000;
+    font-size: 1.125rem;
+    line-height: 1;
+  }
+  
+  .tags-input-remove:first-child {
+    margin-right: .25rem;
+  }
+  
+  .tags-input-remove:last-child {
+    margin-left: .25rem;
+  }
+  
+  .tags-input-remove:focus {
+    outline: 0;
+  }
+  
+  .tags-input-text {
+    flex: 1;
+    outline: 0;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    min-width: 10rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+  }
+
+  .tags-input-text:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
